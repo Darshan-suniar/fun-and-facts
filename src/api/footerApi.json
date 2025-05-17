@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "IoLocationSharp",
+    "title": "Find Us",
+    "details": "Mohali ,Punjab"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call Us",
+    "details": "9876543210"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail Us",
+    "details": "countruvisit@gmail.com"
+  }
+]

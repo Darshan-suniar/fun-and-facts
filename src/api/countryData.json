@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "country": "Australia",
+    "population": 26600000,
+    "capital": "Canberra",
+    "fact": "Australia is the only country that is also a continent.",
+    "interestingFact": "There are more kangaroos than people in Australia."
+  },
+  {
+    "id": 2,
+    "country": "Brazil",
+    "population": 215300000,
+    "capital": "Brasília",
+    "fact": "Brazil is home to 60% of the Amazon Rainforest.",
+    "interestingFact": "They have an entire town painted in blue called Chefchaouen."
+  },
+  {
+    "id": 3,
+    "country": "Chile",
+    "population": 19400000,
+    "capital": "Santiago",
+    "fact": "Chile is home to the world’s driest desert: the Atacama Desert.",
+    "interestingFact": "In some parts of Chile, it hasn’t rained for hundreds of years."
+  },
+  {
+    "id": 4,
+    "country": "Egypt",
+    "population": 111000000,
+    "capital": "Cairo",
+    "fact": "Ancient Egyptians invented toothpaste around 5000 BC.",
+    "interestingFact": "The Great Pyramid of Giza can focus electromagnetic energy."
+  },
+  {
+    "id": 5,
+    "country": "France",
+    "population": 68000000,
+    "capital": "Paris",
+    "fact": "France is the most visited country in the world.",
+    "interestingFact": "There's only one stop sign in the entire city of Paris."
+  },
+  {
+    "id": 6,
+    "country": "Iceland",
+    "population": 372000,
+    "capital": "Reykjavík",
+    "fact": "Iceland is powered almost entirely by renewable energy.",
+    "interestingFact": "There are no mosquitoes in Iceland."
+  },
+  {
+    "id": 7,
+    "country": "India",
+    "population": 1417000000,
+    "capital": "New Delhi",
+    "fact": "India is the world's largest democracy.",
+    "interestingFact": "The Kumbh Mela gathering is so large, it can be seen from space."
+  },
+  {
+    "id": 8,
+    "country": "Japan",
+    "population": 125800000,
+    "capital": "Tokyo",
+    "fact": "Japan has more than 6,800 islands.",
+    "interestingFact": "Vending machines in Japan sell everything from hot meals to umbrellas."
+  },
+  {
+    "id": 9,
+    "country": "Nepal",
+    "population": 30550000,
+    "capital": "Kathmandu",
+    "fact": "Nepal is home to 8 of the world's 10 highest mountains, including Mount Everest.",
+    "interestingFact": "It’s the only country in the world that doesn’t have a rectangular flag."
+  },
+  {
+    "id": 10,
+    "country": "New Zealand",
+    "population": 5300000,
+    "capital": "Wellington",
+    "fact": "There are more sheep than people in New Zealand.",
+    "interestingFact": "It was the first country to give women the right to vote in 1893."
+  },
+  {
+    "id": 11,
+    "country": "Norway",
+    "population": 5400000,
+    "capital": "Oslo",
+    "fact": "Norway gets almost all its electricity from hydropower.",
+    "interestingFact": "It’s legal to camp almost anywhere in nature in Norway due to “freedom to roam” laws."
+  },
+  {
+    "id": 12,
+    "country": "South Africa",
+    "population": 61000000,
+    "capital": "Pretoria (executive), Bloemfontein (judicial), Cape Town (legislative)",
+    "fact": "South Africa has three capital cities.",
+    "interestingFact": "It's the only country to have hosted the soccer, cricket, and rugby world cups."
+  },
+  {
+    "id": 13,
+    "country": "South Korea",
+    "population": 51600000,
+    "capital": "Seoul",
+    "fact": "South Korea has one of the fastest internet speeds in the world.",
+    "interestingFact": "They celebrate a special holiday called ‘Pepero Day’ with cookie sticks."
+  },
+  {
+    "id": 14,
+    "country": "Switzerland",
+    "population": 8900000,
+    "capital": "Bern",
+    "fact": "Switzerland is famous for being neutral in international conflicts.",
+    "interestingFact": "It has no official head of state and rotates its presidency annually."
+  },
+  {
+    "id": 15,
+    "country": "Thailand",
+    "population": 71600000,
+    "capital": "Bangkok",
+    "fact": "Thailand is the only Southeast Asian country never colonized by a European power.",
+    "interestingFact": "It holds the record for the world’s longest place name – the full ceremonial name of Bangkok."
+  }
+]
