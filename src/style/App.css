@@ -94,7 +94,7 @@ header {
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
   height: 100%;
-  padding: 0 3.2rem;
+  padding: 2rem;
 }
 
 nav ul {
@@ -106,20 +106,63 @@ nav ul {
 nav ul li a {
   color: #fff;
 }
+.ham-menu{
+  display: none;
+}
 
+@media screen and (max-width:998px){
+  .menu-web{
+    display: none;
+  }
+  .ham-menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu-mobile{
+    position: absolute;
+    top: 10rem;
+    left: 0;
+    background-color: #080509;
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+  }
+
+  .menu-mobile ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & li:first-child{
+margin-top: 1.2rem;
+    }
+
+    & li:last-child{
+      margin-bottom: 1.2rem;
+    }
+  }
+}
 /* Hero Section */
-.hero-section .container {
+/* .hero-section .container {
   margin: 9rem auto;
   padding: 3.2rem;
-  gap: 6.4rem;
+  gap: 6.5rem;
 }
 
 .heading-xl {
   font-size: clamp(5.2rem, 6vw, 4.241rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   letter-spacing: -1px;
+  margin-bottom: 1.8rem;
 }
+
+.paragraph{
+  font-size: large;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+}
+
 
 .hero-image {
   display: flex;
@@ -140,7 +183,7 @@ nav ul li a {
     width: 80%;
     order: 0;
   }
-}
+} */
 
 /* About Section */
 
@@ -153,6 +196,7 @@ nav ul li a {
   text-align: center;
   font-weight: 700;
   font-size: xx-large;
+  margin-bottom: 2rem;
 }
 
 hr{

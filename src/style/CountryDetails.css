@@ -1,0 +1,140 @@
+/* Country Details Card */
+.country-details-card {
+  margin: 3rem auto;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.country-details-card .container-card {
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: #1a171c;
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Flag Image */
+.country-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.country-image img.flag {
+  max-width: 45rem;
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  border: 2px solid #444;
+  box-shadow: 0 0 2rem rgba(255, 255, 255, 0.05);
+}
+
+/* Content */
+.country-contant {
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  gap: 2rem;
+  flex: 1;
+}
+
+.country-contant .card-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 1rem;
+}
+
+.infoContainer p {
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #dcdcdc;
+}
+
+.infoContainer span.card-description {
+  font-weight: 600;
+  color: #aaa;
+  margin-right: 0.5rem;
+}
+
+/* Go Back Button */
+.country-card-backBtn {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.country-card-backBtn .backBtn button {
+  background-color: #202020;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  border-radius: 1.2rem;
+  border: 1px solid #444;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.country-card-backBtn .backBtn button:hover {
+  background-color: #2e86c1;
+  border-color: #2e86c1;
+}
+
+/* Medium Screens (Tablet) */
+@media (max-width: 991px) {
+  .country-details-card .container-card {
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .country-image {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .country-contant {
+    width: 100%;
+    max-width: 45rem;
+    align-items: center;
+  }
+
+  .infoContainer {
+    text-align: left;
+  }
+
+  .country-contant .card-title {
+    font-size: 2.8rem;
+  }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 600px) {
+  .country-image img.flag {
+    max-width: 90%;
+  }
+
+  .country-contant .card-title {
+    font-size: 2.4rem;
+  }
+
+  .infoContainer p {
+    font-size: 1.4rem;
+  }
+
+  .country-card-backBtn .backBtn button {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+}

@@ -1,6 +1,10 @@
 import { TbArrowBigRightLineFilled } from "react-icons/tb";
+import "../../style/HeroSection.css";
 
 const HeroSection = () => {
+  const goToEarth = () => {
+    window.open("https://earth3dmap.com/#google_vignette", "_blank");
+  };
   return (
     <main className="hero-section main">
       <div className="container grid grid-two-cols">
@@ -12,15 +16,19 @@ const HeroSection = () => {
             Discover the history,culture, and beauty of every nation. Search,
             and filter through countries to find the details you
           </p>
-          <button>
+          <button onClick={goToEarth}>
             Start Exploring <TbArrowBigRightLineFilled />
           </button>
         </div>
         <div className="hero-image">
-          <img src="./image/world.png" alt="world beauty" />
+          <img
+            className="banner-image"
+            src="./image/world.png"
+            alt="world beauty"
+          />
         </div>
       </div>
-      <hr/>
+      <hr />
     </main>
   );
 };

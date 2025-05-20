@@ -2,6 +2,7 @@ import React, { useEffect, useState, useTransition } from "react";
 import { NavLink, useParams } from "react-router-dom";
 import { getCountryIndvData } from "../../api/postApi";
 import Loader from "../Ui/Loader";
+import "../../style/CountryDetails.css"
 
 const CountryDetails = () => {
   const params = useParams();
@@ -76,11 +77,11 @@ const CountryDetails = () => {
                   : "N/A"}
               </p>
             </div>
-          </div>
-        </div>
         <div className="country-card-backBtn">
             <NavLink to="/country" className="backBtn">
             <button>Go Back</button></NavLink>
+        </div>
+          </div>
         </div>
       </div>
     </section>

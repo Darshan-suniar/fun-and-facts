@@ -1,4 +1,12 @@
-/* HTML: <div class="loader"></div> */
+/* Centering the loader */
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Keep your original loader styles */
 .loader {
   width: 50px;
   padding: 8px;
@@ -14,4 +22,9 @@
           mask-composite: subtract;
   animation: l3 1s infinite linear;
 }
-@keyframes l3 {to{transform: rotate(1turn)}}
+
+@keyframes l3 {
+  to {
+    transform: rotate(1turn);
+  }
+}

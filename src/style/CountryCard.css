@@ -1,5 +1,4 @@
-/* CountryCard.css */
-
+/* Base Card Styles */
 .country-card {
   list-style: none;
   border-radius: 12px;
@@ -7,6 +6,9 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease;
   background-color: #fff;
+  width: 100%;
+  max-width: 32rem;
+  margin: 1rem auto;
 }
 
 .country-card:hover {
@@ -26,6 +28,7 @@
   padding: 12px;
 }
 
+/* Flag Image */
 .country-card img {
   width: 100%;
   height: auto;
@@ -34,4 +37,70 @@
   max-height: 160px;
 }
 
+/* Country Info */
+.countryInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+  width: 100%;
+}
 
+.countryInfo .card-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+}
+
+.countryInfo .card-title span {
+  font-weight: 600;
+  color: #777;
+  margin-right: 0.5rem;
+}
+
+/* Button */
+.countryInfo button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background-color: #202020;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.countryInfo button:hover {
+  background-color: #1c5d91;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .country-card {
+    max-width: 90%;
+  }
+
+  .countryInfo .card-title {
+    font-size: 1.3rem;
+  }
+
+  .countryInfo button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .countryInfo .card-title {
+    font-size: 1.2rem;
+  }
+
+  .country-card img {
+    max-height: 140px;
+  }
+
+  .countryInfo button {
+    font-size: 1.2rem;
+    padding: 0.6rem;
+  }
+}
